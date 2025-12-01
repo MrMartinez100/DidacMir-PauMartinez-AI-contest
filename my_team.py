@@ -142,7 +142,7 @@ class OffensiveReflexAgent(ReflexCaptureAgent):
             'distance_to_food': w_food,
             'carrying': 2.0 + 3.0 * frac,
             'distance_to_frontier': w_frontier,
-            'closest_ghost': 2.0,
+            'closest_ghost': 5.0,
             'no_enemy_food': 10.0,
             'stop': -10,
             'reverse': -3
@@ -389,3 +389,4 @@ class DefensiveReflexAgent(ReflexCaptureAgent):
                     'carrying': 5,
                     'distance_to_frontier': -0.2
                 }
+
